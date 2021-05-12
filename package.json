@@ -1,0 +1,23 @@
+{
+  "name": "depcheck-actions-example",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/algas/depcheck-actions-example.git"
+  },
+  "keywords": [],
+  "author": "Masahiro Yamauchi",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/algas/depcheck-actions-example/issues"
+  },
+  "homepage": "https://github.com/algas/depcheck-actions-example#readme",
+  "devDependencies": {
+    "lodash": "^4.17.21"
+  }
+}
