@@ -17,7 +17,7 @@
     "url": "https://github.com/algas/depcheck-actions-example/issues"
   },
   "homepage": "https://github.com/algas/depcheck-actions-example#readme",
-  "devDependencies": {
+  "dependencies": {
     "lodash": "^4.17.21"
   }
 }
