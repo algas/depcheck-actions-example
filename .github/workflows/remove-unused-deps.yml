@@ -18,17 +18,16 @@ jobs:
         run: ./remove-unused-deps.sh ./package.json
       - name: install
         run: npm install
-      - name: commits
-        run: |
-          git config user.name 'Masahiro Yamauchi'
-          git config user.email 'sgt.yamauchi@gmail.com'
-          git add ./package*.json
-          git commit -m "remove unused dependencies"
       - name: create pull request
         uses: peter-evans/create-pull-request@v3
         with:
           title: Remove unused dependencies
+          commit-message: |
+            refactor: remove unused dependencies
+          committer: GitHub <noreply@github.com>
+          author: GitHub <noreply@github.com>
           assignees: ${{ github.actor }}
           reviewers: ${{ github.actor }}
+          branch: feature/github-remove-unused-deps
           branch-suffix: short-commit-hash
           delete-branch: true
