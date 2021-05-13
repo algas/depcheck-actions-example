@@ -18,6 +18,6 @@
   },
   "homepage": "https://github.com/algas/depcheck-actions-example#readme",
   "dependencies": {
-    "lodash": "^4.17.21"
+    "lodash": "4.17.21"
   }
 }
